@@ -3,7 +3,7 @@ import React from 'react'
 
 interface CustomTextProps{
     value:string;
-    variant: "normal"|"subtitle"|"title"
+    variant: "normal"|"subtitle"|"title"|"title2";
 
 }
 
@@ -20,9 +20,11 @@ switch(variant){
     case "normal":
         return "text-black font-normal"
     case "subtitle":
-        return "text-gray-500 font-semibold text-xl"
+        return "text-white font-semibold text-xl"
     case "title":
         return "text-black font-bold text-2xl"
+    case "title2":
+        return "text-white font-bold text-2xl"    
     default:
         return "text-black font-normal"
 }
