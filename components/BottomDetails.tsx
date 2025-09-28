@@ -5,7 +5,7 @@ import CustomText from './ui/CustomText'
 const BottomDetails = () => {
 
   return (
-    <View className='h-1/2 w-full bg-gray-700 rounded-xl '>
+    <View className='h-1/2 w-full bg-gray-700 rounded-l '>
       <View className='flex-row justify-between items-right p-4 text-white'> //texto
         <CustomText variant='title2' value='Skill'></CustomText>
       </View>
